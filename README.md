@@ -27,3 +27,6 @@
 #### 10. Radarr
 #### 11. Sonarr
 #### 12. UpTimeKuma
+
+##### Mounting the disks/partitions with correct permission. 
+    /dev/sda3 /home/pi/ssd exfat defaults,uid=1000,gid=1000 0 0
