@@ -9,14 +9,14 @@
   > Port: 3000;3000
 
 #### 02. JDownloader
-jaymoulin/jdownloader:latest
-logo: https://icon.casaos.io/main/all/jdownloader.png
+jaymoulin/jdownloader:latest  
+logo: https://icon.casaos.io/main/all/jdownloader.png  
 > webUI port: 3129
 > Port: 3129;3129
 Environment Variables
-> MYJD_USER: username
-> MYJD_PASSWORD: password
-> MYJD_DEVICE_NAME: device name
+> MYJD_USER: username  
+> MYJD_PASSWORD: password  
+> MYJD_DEVICE_NAME: device name  
 
 #### 03. Jellyfin
 
