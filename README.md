@@ -32,7 +32,7 @@
 
 ### Additional Setup
 
-#### Mounting the disks/partitions with correct permission:  
+> #### Mounting the disks/partitions with correct permission:  
 > To auto mount external drives and partitions on boot, append **fstab**.  
     
     sudo nano /etc/fstab  
