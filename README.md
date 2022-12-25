@@ -6,7 +6,7 @@
 
 #### 01. AdGuardHome
 
-  > Port: 3000;3000
+      Port = 3000:3000
 
 #### 02. JDownloader
 
