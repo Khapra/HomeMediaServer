@@ -25,9 +25,9 @@ Ports:
 
 Environment Variables:
 
-> MYJD_USER: username  
-> MYJD_PASSWORD: password  
-> MYJD_DEVICE_NAME: device name  
+    MYJD_USER: username  
+    MYJD_PASSWORD: password  
+    MYJD_DEVICE_NAME: device name  
 
 #### 03. Jellyfin
 
