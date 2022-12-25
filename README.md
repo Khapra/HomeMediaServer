@@ -75,7 +75,7 @@ Volumes:
     
 #### Schedule daily reboots
 
-> To schedule a reboot, edit **crontab**
+> To schedule a reboot, append **crontab**
  
     sudo crontab -e
 
