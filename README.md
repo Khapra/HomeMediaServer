@@ -20,14 +20,21 @@ logo:
 
 Ports:
 
-      webUI port: 3129
-      Port: 3129;3129
+      webUI port = 3129
+      Port = 3129:3129
 
 Environment Variables:
 
-    MYJD_USER: username  
-    MYJD_PASSWORD: password  
-    MYJD_DEVICE_NAME: device name  
+    MYJD_USER = username  
+    MYJD_PASSWORD = password  
+    MYJD_DEVICE_NAME = device name  
+
+Volumes:  
+
+> Choose a download path for JDownloader  
+
+    /XXXX/XXXX/XXXX:/opt/JDownloader/Downloads 
+    /DATA/AppData/JDownloader/cfg:/opt/JDownloader/cfg  
 
 #### 03. Jellyfin
 
