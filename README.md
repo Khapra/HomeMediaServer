@@ -77,6 +77,12 @@ Logo:
 
 #### Mounting the disks/partitions with correct permissions  
 
+> To view disks/partitions.
+
+      sudo fdisk -l
+      lsblk
+      blkid
+
 > To auto mount external drives and partitions on boot, append **fstab**.  
     
     sudo nano /etc/fstab  
