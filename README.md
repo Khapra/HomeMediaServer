@@ -29,7 +29,7 @@
 #### 12. UpTimeKuma
 
 ### Mounting the disks/partitions with correct permission:  
-> To mount external drives and partitions append **fstab**  
+> To auto mount external drives and partitions on boot append **fstab**  
 >> *(/dev/XXXX for partitions; PARTUUID for disks)*  
     
     sudo nano /etc/fstab  
