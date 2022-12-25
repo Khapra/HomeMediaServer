@@ -32,7 +32,7 @@
 
 ### **Additional Setup:**
 
-#### **Mounting the disks/partitions with correct permissions**  
+#### Mounting the disks/partitions with correct permissions  
 
 > To auto mount external drives and partitions on boot, append **fstab**.  
     
@@ -46,4 +46,13 @@
 #### Last reboot/startup information
     
     less /var/log/messages | grep Booting
+    
+#### Schedule daily reboots
 
+> To schedule a reboot, edit **crontab**
+ 
+    sudo crontab -e
+
+> This schedules a reboot every morning at 6 am.
+
+    0 6 * * * /sbin/shutdown -r now
