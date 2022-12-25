@@ -10,12 +10,14 @@
 
 #### 02. JDownloader
 
-Docker Image URL: jaymoulin/jdownloader:latest  
+> Docker Image URL: jaymoulin/jdownloader:latest  
 
-logo: https://icon.casaos.io/main/all/jdownloader.png  
+logo:  
 
-> webUI port: 3129
-> Port: 3129;3129
+      https://icon.casaos.io/main/all/jdownloader.png  
+>
+      webUI port: 3129
+      Port: 3129;3129
 
 Environment Variables:
 
