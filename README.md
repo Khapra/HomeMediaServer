@@ -2,7 +2,7 @@
 
 ## Media server running on raspberry pi 4 via CasaOS.
 
-### Apps: 
+### **Apps:** 
 
 #### 01. AdGuardHome
 
@@ -30,9 +30,10 @@
 #### 11. Sonarr
 #### 12. UpTimeKuma
 
-### Additional Setup
+### **Additional Setup**
 
-> #### Mounting the disks/partitions with correct permission:  
+#### Mounting the disks/partitions with correct permission:  
+
 > To auto mount external drives and partitions on boot, append **fstab**.  
     
     sudo nano /etc/fstab  
@@ -46,4 +47,3 @@
     
     less /var/log/messages | grep Booting
 
-*** test
