@@ -36,7 +36,7 @@ Volumes:
     /XXXX/XXXX/XXXX:/opt/JDownloader/Downloads 
     /DATA/AppData/JDownloader/cfg:/opt/JDownloader/cfg  
 
-> Commands  
+Commands:  
 
     /opt/JDownloader/daemon.sh
 
