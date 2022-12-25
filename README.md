@@ -56,6 +56,15 @@ Commands:
 
 #### 04. Lidarr
 #### 05. my-JD(weblink for my.jdownloader)
+
+URL:  
+
+      https://my.jdownloader.org/  
+
+Logo:  
+
+      https://icon.casaos.io/main/all/jdownloader.png  
+
 #### 06. Ombi
 #### 07. OpenSpeedTest
 #### 08. Prowlarr
