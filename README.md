@@ -36,6 +36,10 @@ Volumes:
     /XXXX/XXXX/XXXX:/opt/JDownloader/Downloads 
     /DATA/AppData/JDownloader/cfg:/opt/JDownloader/cfg  
 
+> Commands  
+
+    /opt/JDownloader/daemon.sh
+
 #### 03. Jellyfin
 
 ##### V4L2 (Raspberry Pi)
