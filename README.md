@@ -29,7 +29,9 @@
 #### 12. UpTimeKuma
 
 ### Mounting the disks/partitions with correct permission:  
-
+> To mount external drives and partitions append **fstab**
+    
+    sudo nano /etc/fstab
     /dev/sda3 /home/pi/ssd exfat defaults,uid=1000,gid=1000 0 0
 
 >> *(/dev/XXXX for partitions; PARTUUID for disks)*
