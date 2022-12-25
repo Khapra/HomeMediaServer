@@ -87,6 +87,6 @@ Commands:
  
     sudo crontab -e
 
-> This schedules a reboot every morning at 6 am.
+> This schedules a reboot everyday at 6 am.
 
     0 6 * * * /sbin/shutdown -r now
