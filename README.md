@@ -46,4 +46,4 @@
     
     less /var/log/messages | grep Booting
 
-**** test
+*** test
