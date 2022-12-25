@@ -2,7 +2,7 @@
 
 ## Media server running on raspberry pi 4 via CasaOS.
 
-**casaOS install:**
+**Install casaOS:**
 
       curl -fsSL https://get.casaos.io | sudo bash
 
