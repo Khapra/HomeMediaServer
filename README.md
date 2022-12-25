@@ -10,7 +10,9 @@
 
 #### 02. JDownloader
 
-> Docker Image URL: jaymoulin/jdownloader:latest  
+> Docker Image URL:  
+      
+      jaymoulin/jdownloader:latest  
 
 logo:  
 
