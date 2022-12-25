@@ -1,22 +1,17 @@
 # HomeMediaServer
+
 ## Media server running on raspberry pi 4 via CasaOS.
 
-### Mounting the disks/partitions with correct permission:  
-> To auto mount external drives and partitions on boot append **fstab**  
-    
-    sudo nano /etc/fstab  
-
->> *(/dev/XXXX for partitions; PARTUUID for disks)*  
-
-    /dev/sda3 /home/pi/ssd exfat defaults,uid=1000,gid=1000 0 0 
-
 ### Apps: 
+
 #### 01. AdGuardHome
 
   > Port:3000;3000
 
 #### 02. JDownloader
+
 #### 03. Jellyfin
+
 ##### V4L2 (Raspberry Pi)
 
 > Hardware acceleration users for Raspberry Pi V4L2 will need to mount their /dev/video1X devices inside of the container by passing the following options when running or creating the container: 
@@ -35,6 +30,19 @@
 #### 11. Sonarr
 #### 12. UpTimeKuma
 
- 
+### Additional Setup
+
+#### Mounting the disks/partitions with correct permission:  
+> To auto mount external drives and partitions on boot, append **fstab**.  
+    
+    sudo nano /etc/fstab  
+
+>> *(/dev/XXXX for partitions; PARTUUID for disks)*  
+
+    /dev/sda3 /home/pi/ssd exfat defaults,uid=1000,gid=1000 0 0 
+
+
+> Latest reboot query.
+    less /var/log/messages | grep Booting
 
 
