@@ -42,7 +42,8 @@
     /dev/sda3 /home/pi/ssd exfat defaults,uid=1000,gid=1000 0 0 
 
 
-> Latest reboot query.
+#### Last reboot/startup information.
+    
     less /var/log/messages | grep Booting
 
 
