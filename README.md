@@ -30,9 +30,9 @@
 #### 11. Sonarr
 #### 12. UpTimeKuma
 
-### **Additional Setup**
+### **Additional Setup:**
 
-#### Mounting the disks/partitions with correct permission:  
+#### **Mounting the disks/partitions with correct permissions**  
 
 > To auto mount external drives and partitions on boot, append **fstab**.  
     
@@ -43,7 +43,7 @@
     /dev/sda3 /home/pi/ssd exfat defaults,uid=1000,gid=1000 0 0 
 
 
-#### Last reboot/startup information.
+#### Last reboot/startup information
     
     less /var/log/messages | grep Booting
 
