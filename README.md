@@ -4,7 +4,7 @@
 ### Apps:- 
 #### 01. AdGuardHome
 
-a> Port:3000;3000
+  > Port:3000;3000
 
 #### 02. JDownloader
 #### 03. Jellyfin
