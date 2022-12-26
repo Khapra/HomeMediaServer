@@ -108,12 +108,14 @@ Change permissions to root read-only.
     sudo chmod 400 login.conf
 
 Configure OpenVPN to start on boot.
+
 > Uncomment and add the config file name. 
 
-    AUTOSTART="pia-??"
->
-  
     sudo vi /etc/default/openvpn
+
+>
+
+    AUTOSTART="pia-??"
     
 Check current ip address.    
 
