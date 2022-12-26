@@ -65,13 +65,13 @@ Logo:
 
       https://icon.casaos.io/main/all/jdownloader.png  
 
-#### 06. Ombi
+#### 06. UpTimeKuma
 #### 07. OpenSpeedTest
 #### 08. Prowlarr
 #### 09. qBittorrent
 #### 10. Radarr
 #### 11. Sonarr
-#### 12. UpTimeKuma
+
 
 ### **Additional Setup:**
 
