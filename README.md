@@ -44,9 +44,9 @@ Commands:
 
     /opt/JDownloader/daemon.sh
 
-#### 03. Jellyfin
+#### 03. Jellyfin  
 
-##### V4L2 (Raspberry Pi)
+##### V4L2 (Raspberry Pi)  
 
 > Hardware acceleration users for Raspberry Pi V4L2 will need to mount their /dev/video1X devices inside of the container by passing the following options when running or creating the container: 
 
@@ -54,8 +54,9 @@ Commands:
     --device=/dev/video11:/dev/video11
     --device=/dev/video12:/dev/video12  
 
-#### 04. Lidarr
-#### 05. my-JD(weblink for my.jdownloader)
+#### 04. Lidarr  
+
+#### 05. my-JD(weblink for my.jdownloader)  
 
 URL:  
 
@@ -65,24 +66,66 @@ Logo:
 
       https://icon.casaos.io/main/all/jdownloader.png  
 
-#### 06. OpenSpeedTest
-#### 07. OpenVPN
+#### 06. OpenSpeedTest  
+
+#### 07. OpenVPN  
 
     apt instal openvpn
-
-> Install unZip to unzip the vpn files (PIA VPV).  
-
-    apt install unzip
 
 > Change to openVPN directory, download and unzip openVPN config files. 
 
     cd etc/openvpn 
 
-#### 08. Prowlarr
-#### 09. qBittorrent
-#### 10. Radarr
-#### 11. Sonarr
-#### 12. UpTimeKuma
+> Download the PIA VPN config files.
+
+      sudo wget https://www.privateinternetaccess.com/openvpn/openvpn.zip
+
+> Install Unzip. Download and decompress the vpn files (PIA).  
+
+    apt install unzip
+
+    sudo unzip openvpn.zip
+
+> Copy one of the ????.ovpn files as openvpn config file.
+
+    sudo cp ????.ovpn pia-??.conf
+
+> Edit the config file.
+> Change auth-user-pass to: auth-user-pass login.conf  
+    
+    sudo vi pia-??.conf
+
+> Create a login.conf file and put in credentials.
+>> usernamePIA
+>> passwordPIA
+
+    sudo vi login.conf
+
+> change permissions to root read only.
+
+    sudo chmod 400 login.conf
+
+> Setup openVPN to start on boot.
+> Uncomment and add the config file name 
+
+    AUTOSTART="pia-??"
+>
+  
+    sudo vi /etc/default/openvpn
+    
+> Check current ip address.    
+
+    curl ifconfig.me
+
+#### 08. Prowlarr  
+
+#### 09. qBittorrent  
+
+#### 10. Radarr  
+
+#### 11. Sonarr  
+
+#### 12. UpTimeKuma   
 
 ### **Additional Setup:**
 
@@ -116,3 +159,11 @@ Logo:
 > This schedules a reboot everyday at 6 am.
 
     0 6 * * * /sbin/shutdown -r now
+
+#### Change to super user
+      
+      sudo -s
+
+#### Update and upgrade
+
+      sudo apt update && sudo apt upgrade
