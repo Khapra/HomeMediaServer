@@ -65,13 +65,24 @@ Logo:
 
       https://icon.casaos.io/main/all/jdownloader.png  
 
-#### 06. UpTimeKuma
-#### 07. OpenSpeedTest
+#### 06. OpenSpeedTest
+#### 07. OpenVPN
+
+    apt instal openvpn
+
+> Install unZip to unzip the vpn files (PIA VPV).  
+
+    apt install unzip
+
+> Change to openVPN directory, download and unzip openVPN config files. 
+
+    cd etc/openvpn 
+
 #### 08. Prowlarr
 #### 09. qBittorrent
 #### 10. Radarr
 #### 11. Sonarr
-
+#### 12. UpTimeKuma
 
 ### **Additional Setup:**
 
