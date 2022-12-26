@@ -109,11 +109,9 @@ Change permissions to root read-only.
 
 Configure OpenVPN to start on boot.
 
-> Uncomment and add the config file name. 
-
     sudo vi /etc/default/openvpn
 
->
+> Uncomment and add the config file name. 
 
     AUTOSTART="pia-??"
     
