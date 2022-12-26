@@ -131,6 +131,8 @@ Logo:
 
 ### **Additional Setup:**
 
+#### Running RPi OS Lite 64-Bit
+
 #### Update and upgrade
 
       sudo apt update && sudo apt upgrade
