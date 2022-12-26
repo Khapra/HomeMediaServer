@@ -149,9 +149,9 @@ Logo:
     
     sudo nano /etc/fstab  
 
-> */dev/XXXX for partitions; PARTUUID for disks*  
+> */dev/???? for partitions; PARTUUID for disks*  
 
-    /dev/sda3 /home/pi/ssd exfat defaults,uid=1000,gid=1000 0 0 
+    /dev/???? /home/pi/ssd exfat defaults,uid=1000,gid=1000 0 0 
 
 
 #### Last reboot/startup information
