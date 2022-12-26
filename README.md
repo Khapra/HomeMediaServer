@@ -74,7 +74,7 @@ Logo:
 
     apt instal openvpn
 
-> Change to openVPN directory, download and unzip openVPN config files. 
+> Change to OpenVPN directory, download and unzip OpenVPN config files. 
 
     cd etc/openvpn 
 
@@ -82,7 +82,7 @@ Logo:
 
       sudo wget https://www.privateinternetaccess.com/openvpn/openvpn.zip
 
-> Install Unzip. Download and decompress the vpn files (PIA).  
+> Install Unzip. Download and decompress the VPN files (PIA).  
 
     apt install unzip
 
@@ -103,11 +103,11 @@ Logo:
 
     sudo vi login.conf
 
-> change permissions to root read only.
+> change permissions to root read-only.
 
     sudo chmod 400 login.conf
 
-> Setup openVPN to start on boot.
+> Configure OpenVPN to start on boot.
 > Uncomment and add the config file name 
 
     AUTOSTART="pia-??"
@@ -131,7 +131,7 @@ Logo:
 
 ### **Additional Setup:**
 
-#### Mounting the disks/partitions with correct permissions  
+#### Mounting the disks/partitions with the correct permissions  
 
 > To view disks/partitions.
 
@@ -139,7 +139,7 @@ Logo:
       lsblk
       blkid
 
-> To auto mount external drives and partitions on boot, append **fstab**.  
+> To auto-mount external drives and partitions on boot, append **fstab**.  
     
     sudo nano /etc/fstab  
 
@@ -158,11 +158,11 @@ Logo:
  
     sudo crontab -e
 
-> This schedules a reboot everyday at 6 am.
+> This schedules a reboot every day at 6 am.
 
     0 6 * * * /sbin/shutdown -r now
 
-#### Change to super user
+#### Change user to superuser
       
       sudo -s
 
