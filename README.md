@@ -80,7 +80,7 @@ Logo:
 
 > Download the PIA VPN config files.
 
-      sudo wget https://www.privateinternetaccess.com/openvpn/openvpn.zip
+    sudo wget https://www.privateinternetaccess.com/openvpn/openvpn.zip
 
 > Install Unzip. Download and decompress the VPN files (PIA).  
 
@@ -113,11 +113,11 @@ Logo:
     AUTOSTART="pia-??"
 >
   
-    sudo vi /etc/default/openvpn
+     sudo vi /etc/default/openvpn
     
 > Check current ip address.    
 
-    curl ifconfig.me
+     curl ifconfig.me
 
 #### 08. Prowlarr  
 
@@ -135,15 +135,15 @@ Logo:
 
 #### Update and upgrade
 
-      sudo apt update && sudo apt upgrade
+     sudo apt update && sudo apt upgrade
 
 #### Mounting the disks/partitions with the correct permissions  
 
 > To view disks/partitions.
 
-      sudo fdisk -l
-      lsblk
-      blkid
+     sudo fdisk -l
+     lsblk
+     blkid
 
 > To auto-mount external drives and partitions on boot, append **fstab**.  
     
