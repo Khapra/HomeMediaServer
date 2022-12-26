@@ -96,7 +96,7 @@ Logo:
     sudo vi pia-??.conf
 
 > Create a login.conf file and put in credentials.
->> usernamePIA
+>> usernamePIA  
 >> passwordPIA
 
     sudo vi login.conf
