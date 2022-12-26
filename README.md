@@ -70,6 +70,8 @@ Logo:
 
 #### 07. OpenVPN  
 
+> Install OpenVPN
+
     apt instal openvpn
 
 > Change to openVPN directory, download and unzip openVPN config files. 
