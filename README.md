@@ -131,6 +131,10 @@ Logo:
 
 ### **Additional Setup:**
 
+#### Update and upgrade
+
+      sudo apt update && sudo apt upgrade
+
 #### Mounting the disks/partitions with the correct permissions  
 
 > To view disks/partitions.
@@ -165,7 +169,3 @@ Logo:
 #### Change user to superuser
       
       sudo -s
-
-#### Update and upgrade
-
-      sudo apt update && sudo apt upgrade
