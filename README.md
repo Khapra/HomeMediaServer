@@ -70,7 +70,7 @@ Logo:
 
 #### 07. OpenVPN  
 
-Install OpenVPN
+Install OpenVPN.
 
     apt instal openvpn
 
@@ -78,46 +78,46 @@ Change to OpenVPN directory, download and unzip OpenVPN config files.
 
     cd etc/openvpn 
 
-> Download the PIA VPN config files.
+Download the PIA VPN config files.
 
     sudo wget https://www.privateinternetaccess.com/openvpn/openvpn.zip
 
-> Install Unzip. Download and decompress the VPN files (PIA).  
+Install Unzip. Download and decompress the VPN files (PIA).  
 
     apt install unzip
 
     sudo unzip openvpn.zip
 
-> Copy one of the ????.ovpn files as openvpn config file.
+Copy one of the ????.ovpn files as openvpn config file.
 
     sudo cp ????.ovpn pia-??.conf
 
-> Edit the config file.
+Edit the config file.
 > Change auth-user-pass to: auth-user-pass login.conf  
     
     sudo vi pia-??.conf
 
-> Create a login.conf file and put in credentials.
->> usernamePIA  
->> passwordPIA
+Create a login.conf file and put in credentials.
+> usernamePIA  
+> passwordPIA
 
     sudo vi login.conf
 
-> change permissions to root read-only.
+Change permissions to root read-only.
 
     sudo chmod 400 login.conf
 
-> Configure OpenVPN to start on boot.
-> Uncomment and add the config file name 
+Configure OpenVPN to start on boot.
+> Uncomment and add the config file name. 
 
     AUTOSTART="pia-??"
 >
   
-     sudo vi /etc/default/openvpn
+    sudo vi /etc/default/openvpn
     
-> Check current ip address.    
+Check current ip address.    
 
-     curl ifconfig.me
+    curl ifconfig.me
 
 #### 08. Prowlarr  
 
@@ -139,13 +139,13 @@ Change to OpenVPN directory, download and unzip OpenVPN config files.
 
 #### Mounting the disks/partitions with the correct permissions  
 
-> To view disks/partitions.
+To view disks/partitions.
 
      sudo fdisk -l
      lsblk
      blkid
 
-> To auto-mount external drives and partitions on boot, append **fstab**.  
+To auto-mount external drives and partitions on boot, append **fstab**.  
     
     sudo nano /etc/fstab  
 
@@ -160,11 +160,11 @@ Change to OpenVPN directory, download and unzip OpenVPN config files.
     
 #### Schedule daily reboots
 
-> To schedule a reboot, append **crontab**
+To schedule a reboot, append **crontab**
  
     sudo crontab -e
 
-> This schedules a reboot every day at 6 am.
+This schedules a reboot every day at 6 am.
 
     0 6 * * * /sbin/shutdown -r now
 
