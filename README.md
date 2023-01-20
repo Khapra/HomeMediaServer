@@ -125,9 +125,13 @@ Check current ip address.
 
 #### 10. Radarr  
 
-#### 11. Sonarr  
+#### 11. Readarr
 
-#### 12. UpTimeKuma   
+#### 12. Sonarr  
+
+#### 13. UpTimeKuma   
+
+#### 14. EmbyStat
 
 ### **Additional Setup:**
 
