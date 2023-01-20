@@ -178,6 +178,6 @@ To enable RAM monitoring in CasaOS system monitor, append cmdline.txt
       
       sudo nano /boot/cmdline.txt
 
- This enables the monitoring or RAM.
+ This enables RAM monitoring.
 
       cgroup_enable=memory cgroup_memory=1
