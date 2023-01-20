@@ -154,11 +154,11 @@ To auto-mount external drives and partitions on boot, append **fstab**.
     /dev/???? /home/pi/ssd exfat defaults,uid=1000,gid=1000 0 0 
 
 
-#### Last reboot/startup information
+#### Last reboot/startup information.
     
     less /var/log/messages | grep Booting
     
-#### Schedule daily reboots
+#### Schedule daily reboots.
 
 To schedule a reboot, append **crontab**
  
@@ -168,6 +168,16 @@ This schedules a reboot every day at 6 am.
 
     0 6 * * * /sbin/shutdown -r now
 
-#### Change user to superuser
+#### Change user to superuser.
       
       sudo -s
+
+#### Enable RAM monitoring.
+
+To enable RAM monitoring in CasaOS system monitor, append cmdline.txt
+      
+      sudo nano /boot/cmdline.txt
+
+ This enables the monitoring or RAM.
+
+      cgroup_enable=memory cgroup_memory=1
