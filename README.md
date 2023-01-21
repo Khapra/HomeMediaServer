@@ -133,6 +133,40 @@ Check current ip address.
 
 #### 14. EmbyStat
 
+#### 15. Weather Station
+
+URL:
+      
+      seanriggs/pi-weather-station:arm64
+
+Ports:
+
+      1888:8080
+
+Volumes:
+
+      /DATA/AppData/weatherdata:/appdata
+      
+Environment Variables:
+
+      PUID : 1000
+      PGID : 1000
+
+Container Commands:
+
+      npm
+      start
+
+Restart Policy:
+      
+      unless-stopped
+
+Install npm:
+
+      curl -fsSL https://raw.githubusercontent.com/tj/n/master/bin/n | bash -s lts
+      npm install -g n
+      npm install npm
+      
 ### **Additional Setup:**
 
 #### Running RPi OS Lite 64-Bit
