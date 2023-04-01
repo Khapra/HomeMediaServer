@@ -166,6 +166,33 @@ Install npm:
       curl -fsSL https://raw.githubusercontent.com/tj/n/master/bin/n | bash -s lts
       npm install -g n
       npm install npm
+
+#### 16. Red Discord Bot
+
+Docker Image URL:  
+      
+      phasecorex/red-discordbot:latest 
+
+logo:  
+
+      https://toppng.com/uploads/preview/discordbot-bot-discord-11563261320iwm1tpnosh.png  
+
+Network:
+
+      Bridged  
+
+Environment Variables:
+
+    TZ = America/Vancouver  
+    PUID = 1000  
+
+Volumes:  
+
+    /DATA/AppData/redbotX:/data/ 
+
+Container Commands:
+
+      /app/start-redbot.sh    
       
 ### **Additional Setup:**
 
